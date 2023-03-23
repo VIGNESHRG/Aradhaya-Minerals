@@ -1,0 +1,86 @@
+.login{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.card{
+    height:500px;
+    width:400px;
+    background-color: black;
+    border:5px solid rgb(26, 182, 104);
+    border-radius:20px;
+    position:relative;
+    box-shadow: 2px 2px 500px rgb(103, 230, 6);
+}
+
+.card .heading{
+    position:absolute;
+    font-style: italic;
+    text-shadow:5px 5px 5px gold;
+    top:3px;
+    left:150px;
+    color:yellow;
+}
+
+.card .form{
+    color:white;
+}
+
+.card .form .email{
+    position:absolute;
+    top:190px;
+    left:30px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+.card .form .password{
+    position:absolute;
+    top:230px;
+    left:30px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.card .form #uname,.form #uemail,.form #upassword,.form #uage,.form #umno{
+    outline:none;
+    padding:5px;
+    position:absolute;
+    left:100px;
+    width:200px;
+}
+.form #uemail:hover ,.form #upassword:hover{
+    border-bottom: 5px solid rgb(131, 249, 41);
+}
+
+
+
+.card .form #loginbut{
+    position:absolute;
+    top:370px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(26, 251, 18);
+    left: 155px;
+}
+.card .form #signupbut{
+    position:absolute;
+    top:430px;
+    padding:10px;
+    border-radius: 5px;
+    background-color: rgb(237, 221, 172);
+    left: 250px;
+}
+
+.signupuser{
+    position:absolute;
+    top:420px;
+    left:100px;
+}
+.form button:hover{
+    cursor:pointer;
+}
+
+.background{
+    background-color: beige;
+}
